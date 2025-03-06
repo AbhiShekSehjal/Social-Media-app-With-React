@@ -1,0 +1,145 @@
+.navBar {
+    width: 100%;
+    height: 56px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 7px -3px, rgba(0, 0, 0, 0.153) 0px 3px 7px -3px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.leftSideNavbar {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.fbLogo a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0866FF;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.searchBar {
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    font-size: 14px;
+    background-color: #F2F4F7;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.searchIcon {
+    margin-right: 5px;
+    color: rgb(98, 96, 96);
+}
+
+.searchInput {
+    height: 100%;
+    border: none;
+    background-color: #F2F4F7;
+    width: 100%;
+
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.centerNavbar {
+    height: 100%;
+    width: 330px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+
+.homeBtn,
+.friendsBtn,
+.groupBtn {
+    padding: 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.homeBtn:hover,
+.friendsBtn:hover,
+.groupBtn:hover {
+    background-color: #F2F4F7;
+    border-bottom: 3px solid #0866FF;
+}
+
+.rightSideNavbar {
+    width: 330px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.findFriendBtn {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #F2F4F7;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.moreBtn,
+.messangerBtn,
+.NotificationBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #F2F4F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.findFriendBtn:hover,
+.moreBtn:hover,
+.messangerBtn:hover,
+.NotificationBtn:hover {
+    background-color: #e8e8e8;
+}
+
+
+.profilePic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+
+}

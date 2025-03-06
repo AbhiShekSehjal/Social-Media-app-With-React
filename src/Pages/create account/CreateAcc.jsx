@@ -20,17 +20,14 @@ function CreateAcc() {
             <div className="FakeBookLogoInCreateAcc">FakeBook</div>
             <div className="CreateAccWrapper">
 
-            <span className='heading'>Create a new account</span>
-            <p className='pera'>It's quick and easy.</p>
-            <hr />
+                <span className='heading'>Create a new account</span>
+                <p className='pera'>It's quick and easy.</p>
+                <hr />
 
-
-
-
-                <input type="text" className="firstName" placeholder='First name' />
-                <input type="text" className="lasttName" placeholder='Surname' />
-
-                <br />
+                <div className="majorInputs">
+                    <input type="text" className="firstName" placeholder='First name' />
+                    <input type="text" className="lasttName" placeholder='Surname' />
+                </div>
 
                 <lable className="lableForDOB" >Date of birth &#63;</lable>
 

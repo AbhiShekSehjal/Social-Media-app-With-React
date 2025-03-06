@@ -4,6 +4,7 @@ import { Posts } from './dummyData/dummyData'
 import Login from './Pages/login page/Login'
 import "./app.css"
 import CreateAcc from './Pages/create account/CreateAcc'
+import Home from './Pages/home/Home'
 
 function App() {
   return (
@@ -12,9 +13,11 @@ function App() {
         <HomePage key={post.id} p={post}/>
       ))} */}
 
-      <Login />
+      {/* <Login /> */}
 
-      <CreateAcc/>
+      {/* <CreateAcc/> */}
+
+      <Home />
     </>
   )
 }

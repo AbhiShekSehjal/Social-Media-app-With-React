@@ -16,13 +16,13 @@
     position: relative;
     border-bottom: 1px solid rgb(167, 157, 157);
 }
-
+/* 
 .profilePic img {
     border-radius: 50%;
     object-fit: cover;
     height: 35px;
     width: 35px;
-}
+} */
 
 .userName {
     font-size: 16px;
