@@ -1,12 +1,20 @@
 import React from 'react'
 import "./home.css"
 import Navbar from '../../Components/navbar/Navbar'
+import LeftSidebar from '../../Components/leftSidebar/LeftSidebar'
+import Centerbar from '../../Components/centerBar/Centerbar'
+import RightSidebar from '../../Components/rightSidebar/RightSidebar'
 
 function Home() {
     return (
-        <div className="homePage">
+        <>
             <Navbar />
-        </div>
+            <div className="homePage">
+                <LeftSidebar />
+                <Centerbar />
+                <RightSidebar />
+            </div>
+        </>
     )
 }
 
