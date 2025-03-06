@@ -1,6 +1,5 @@
 import React from 'react'
-import "./CreateAcc.css"
-import { useState } from 'react';
+import "./createAcc.css"
 
 function CreateAcc() {
 
